@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectOptions>
+    <Version Value="9"/>
+    <PathDelim Value="\"/>
+    <General>
+      <Flags>
+        <MainUnitHasCreateFormStatements Value="False"/>
+        <MainUnitHasTitleStatement Value="False"/>
+      </Flags>
+      <SessionStorage Value="InProjectDir"/>
+      <MainUnit Value="0"/>
+      <Title Value="Shorelark"/>
+      <UseAppBundle Value="False"/>
+      <ResourceType Value="res"/>
+    </General>
+    <i18n>
+      <EnableI18N LFM="False"/>
+    </i18n>
+    <VersionInfo>
+      <StringTable ProductVersion=""/>
+    </VersionInfo>
+    <BuildModes Count="1">
+      <Item1 Name="Default" Default="True"/>
+    </BuildModes>
+    <PublishOptions>
+      <Version Value="2"/>
+    </PublishOptions>
+    <RunParams>
+      <local>
+        <FormatVersion Value="1"/>
+      </local>
+    </RunParams>
+    <Units Count="12">
+      <Unit0>
+        <Filename Value="shorelark.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Shorelark"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="src\simulationabstractobject.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="SimulationAbstractObject"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="src\simulationfood.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="SimulationFood"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="src\mymath.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="MyMath"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="src\simulationabstractanimal.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="SimulationAbstractAnimal"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="src\neuralnetwork.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="NeuralNetwork"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="src\geneticalgorithm.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="GeneticAlgorithm"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="src\chart.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Chart"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="src\viewray.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="ViewRay"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="src\ray.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Ray"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="src\simulationshape.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="SimulationShape"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="src\simulationfigure.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="SimulationFigure"/>
+      </Unit11>
+    </Units>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="11"/>
+    <PathDelim Value="\"/>
+    <Target>
+      <Filename Value="bin\Shorelark"/>
+    </Target>
+    <SearchPaths>
+      <IncludeFiles Value="$(ProjOutDir)"/>
+      <OtherUnitFiles Value="src"/>
+      <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
+    </SearchPaths>
+  </CompilerOptions>
+  <Debugging>
+    <Exceptions Count="4">
+      <Item1>
+        <Name Value="EAbort"/>
+      </Item1>
+      <Item2>
+        <Name Value="ECodetoolError"/>
+      </Item2>
+      <Item3>
+        <Name Value="EFOpenError"/>
+      </Item3>
+      <Item4>
+        <Name Value="ENeuralNetworkException"/>
+      </Item4>
+    </Exceptions>
+  </Debugging>
+</CONFIG>
