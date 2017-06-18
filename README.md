@@ -23,7 +23,7 @@ Here ya go, pal:
 
 ![Screenshot](/docs/img/screenshot_0.png)
 
-## Description of textx
+## Description of texts
 
 `Czas renderowania` - `Rendering time`
 
@@ -39,7 +39,7 @@ Here ya go, pal:
 
 `Współczynnik perturbacji` - `Perturbation factor`
 
-`Indeksy dopasowania` - `Fitting indexes` (max, average, min); *fitting index = number of food eaten during the turn*
+`Indeksy dopasowania` - `Fitting indexes` (max, average, min); *fitting index = number of food eaten during the generation*
 
 `Pozycja myszki` - `Cursor position`
 
@@ -49,8 +49,8 @@ The chart below shows the fitting indexes of each generation.
 
 ## What are the numbers on the screen?
 
-The green lines describe angle where that given animal is going, the white arcs show what it can seen and that number in the center shows how much (many) food it has eaten during this generation (effectively: how much food it has eaten since it has been born).
+The green lines describe angle where given animal is going, the white arcs show what it can seen and that number in the center says how much (many) food it has eaten during this generation (effectively: how much food it has eaten since it has been born).
 
 ## Some description of what's going on?
 
-As you can see, the chart raises to some level and then stays on this average - the animals, on average, learn that eating food is their destiny, but I wasn't able to teach them to avoid poisonous food (you can see examples in the code).
+As you can see, the chart raises to some level and then stays on this average. That means that the animals, on average, learn that eating food is their destiny, but I was unable to teach them eg. to avoid poisonous food (you can see some examples in the code).
