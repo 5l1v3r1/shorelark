@@ -49,7 +49,7 @@ The chart below shows the fitting indexes of each generation.
 
 ## What are the numbers on the screen?
 
-The green lines describe angle where given animal is going, the white arcs show what it can seen and that number in the center says how much (many) food it has eaten during this generation (effectively: how much food it has eaten since it has been born).
+The green lines describe angle where given animal is going, the white arcs show what it can see and that number in the center says how much (many) food it has eaten during this generation (effectively: how much food it has eaten since it has been born).
 
 ## Some description of what's going on?
 
